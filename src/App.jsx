@@ -1,9 +1,15 @@
+import Title from "./components/Title"
+import List from "./components/List"
+
 function App() {
 
   return (
-    <>
-      <h1 className="bg-red-400 py-12">Hello world</h1>
-    </>
+    <div className="h-screen bg-slate-900">
+      <div className="max-w-4xl mx-auto pt-20 px-6">
+        <Title />
+        <List />
+      </div>
+    </div>
   )
 }
 
